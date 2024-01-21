@@ -1,0 +1,98 @@
+@charset "UFT-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: #4748B5;
+}
+
+main{
+    background-color: #2226F5;
+    height: 550px;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0px black
+}
+
+main h1{
+    color: #F5CD22;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+main p{
+    margin-bottom: 20px;
+    color: #F5CD22;
+}
+
+input{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid white;  
+    padding-left: 5px; 
+}
+
+input:focus-within{
+    background-color: #F5CD22;
+}
+
+input#altura{
+    margin-left: 3px;
+}
+
+input#peso{
+    margin-left: 12px;
+}
+
+input#botao{
+    background-color: #F5CD22;
+    color: white;
+    margin-top: 30px;
+    width: 250px;
+    cursor: pointer;
+}
+
+input#botao:hover{
+    background-color: #F4E189;
+    color: black;
+    border: solid 1px black;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F5CD22;
+    height: 150px;
+    width: 250px;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+}
